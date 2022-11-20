@@ -42,13 +42,13 @@ Blockchain Provider: given the intensity of usage and the number of likely watch
 
 Sequence Diagram showing key interactions from either the user or the event. Note again that user management, event watchers and notification processes are treated as separate services here, but are merely distinct domains in a shared architecture (including a shared database, etc).
 
-![Sequence Diagram](https://github.com/smallbatch-apps/watcher-architecture/sequence-diagram.png)
+![Sequence Diagram](https://github.com/smallbatch-apps/watcher-architecture/blob/main/sequence-diagram.png?raw=true)
 
 ### Entity Relationship Diagram
 
 Database tables and the relationships between these tables. This database is not necessarily exhaustive - it omits lookup tables, user login logging, token resets, and other “housekeeping” tables and fields. It is also only includes a proposed simplified notification process. There could be any number of additional tables depending on added features - for example it would be possible to extract the events from the ABI to facilitate the interface for selection of events.
 
-![Entity Relationship Diagram](https://github.com/smallbatch-apps/watcher-architecture/entity-relationship-diagram.png)
+![Entity Relationship Diagram](https://github.com/smallbatch-apps/watcher-architecture/blob/main/sequence-diagram.png?raw=true)
 
 <!--
 ### AWS Architecture diagram
